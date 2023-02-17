@@ -97,6 +97,8 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 nav {
+  display: flex;
+  justify-content: space-around;
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
