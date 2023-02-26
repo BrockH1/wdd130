@@ -173,3 +173,38 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.article {
+  height: 200px;
+  width: 200px;
+}
+
+.comics {
+  height: 200px;
+  width: 200px;
+}
+
+.interview {
+  height: 200px;
+  width: 200px;
+}
+
+.movie {
+  height: 200px;
+  width: 200px;
+}
+
+.sonic {
+  height: 200px;
+  width: 200px;
+}
+
+.spiderman {
+  height: 200px;
+  width: 200px;
+}
+
+.videogame {
+  height: 200px;
+  width: 200px;
+}
