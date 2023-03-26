@@ -17,6 +17,7 @@ body{
 }
 
 nav{
+    overflow: hidden;
     display: flex;
     justify-content: space-around;
 }
@@ -183,3 +184,99 @@ footer .social img{
     padding-left: 230px;
     font-size: 35px;
 }
+
+  .feature-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .trailers-box{
+    grid-column: 1;
+    border: 6px solid black;
+    background-color: #01357A;
+  }
+
+  .behind-box{
+    margin-left: 10px;
+    grid-column: 2;
+    border: 6px solid black;
+    background-color: #01357A;
+  }
+
+  .theory-box{
+    margin-left: 10px;
+    grid-column: 3;
+    border: 6px solid black;
+    background-color: #01357A;
+  }
+
+  .feature-link{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .feature-link:hover{
+    color:#F1807E;
+  }
+  
+
+  .behind-box section{
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .theory-box section{
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .trailers-box section{
+    text-align: left;
+    margin-top: 10px;
+  }
+
+
+  #trailers{
+    grid-column: 1;
+    text-align: center;
+    font-size: 35px;
+    color:black;
+    text-decoration:underline;
+    font-family: 'Ubuntu';
+  }
+
+  #behind{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-size: 35px;
+    color:black;
+    text-decoration:underline;
+    font-family: 'Ubuntu';
+  }
+
+  #theories{
+    grid-column: 3;
+    text-align: center;
+    font-size: 35px;
+    color:black;
+    text-decoration:underline;
+    font-family: 'Ubuntu';
+  }
+
+  #feature-msg{
+  z-index: 4;
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 1;
+  margin-top: 75px;
+  color:#F1807E;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  }
